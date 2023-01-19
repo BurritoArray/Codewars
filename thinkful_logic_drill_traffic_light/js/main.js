@@ -20,3 +20,4 @@ function updateLight(current) {
 
 console.log(updateLight('yellow'))
 
+//update
