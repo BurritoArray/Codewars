@@ -12,10 +12,10 @@
 //--------------------------------------------------------------
 
 //---- SOLUTION 1------
-// function friend(friends) {
-//     let result = friends.filter(item => item.length === 4)
-//     return result
-// }
+function friend(friends) {
+    let result = friends.filter(item => item.length === 4)
+    return result
+}
 
 
 //---- SOLUTION 2------
@@ -33,7 +33,7 @@
 
 
 
-
+//update
 
 //TEST CASES
 
