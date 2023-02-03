@@ -18,7 +18,7 @@ function squareDigits(num) {
 }
 
 
-
+//update
 
 //----TEST CASES----
 // console.log(squareDigits(3212)) /* 9414);*/

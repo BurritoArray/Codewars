@@ -26,7 +26,7 @@ function DNAStrand(dna){
     })
     return result
 }
-
+//update
 // function DNAStrand(dna){
 //     let result = ''
 //     dna.split('').map(ele => {
