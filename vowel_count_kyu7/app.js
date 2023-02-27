@@ -11,17 +11,8 @@ function getCount(str) {
     str = str.toLowerCase()
     let strSplit = str.split('')
     for (i=0; i<strSplit.length; i++) {
-        if (strSplit[i] === 'a') {
+        if (strSplit[i] === 'a' || strSplit[i] === 'u' || strSplit[i] === 'o' || strSplit[i] === 'i' || strSplit[i] === 'e') {
             vowelCount += 1
-        } else if (strSplit[i] === 'i') {
-            vowelCount += 1
-        } else if (strSplit[i] === 'e') {
-            vowelCount += 1
-        } else if (strSplit[i] === 'o') {
-            vowelCount += 1
-        } else if (strSplit[i] === 'u') {
-            vowelCount += 1
-        }
     }
     return vowelCount
 }
