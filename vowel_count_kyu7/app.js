@@ -6,17 +6,29 @@
 
 
 //First Passing Attempt - Needs refracturing
+// function getCount(str) {
+//     let vowelCount = 0
+//     str = str.toLowerCase()
+//     let strSplit = str.split('')
+//     for (i=0; i<strSplit.length; i++) {
+//         if (strSplit[i] === 'a' || strSplit[i] === 'u' || strSplit[i] === 'o' || strSplit[i] === 'i' || strSplit[i] === 'e') {
+//             vowelCount += 1
+//         }
+//     }
+//     return vowelCount
+// }
+
+
+//Second Passing
 function getCount(str) {
-    let vowelCount = 0
-    str = str.toLowerCase()
-    let strSplit = str.split('')
-    for (i=0; i<strSplit.length; i++) {
-        if (strSplit[i] === 'a' || strSplit[i] === 'u' || strSplit[i] === 'o' || strSplit[i] === 'i' || strSplit[i] === 'e') {
-            vowelCount += 1
-    }
-    return vowelCount
-}
+    let vowelsCount = 0;
+    let strLC = str.toLowerCase()
+    strLC.split("").forEach(x => {
+      if(x == "a" | x == "e" | x == "i" | x == "o" | x == "u"){
+        vowelsCount++
+      }
+    });  
+    return vowelsCount;
+  }
 
 getCount('abracadaUiobra')
-
-// console.log(getCount("abracadabra"), 5 a's)
