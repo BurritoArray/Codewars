@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    display: flex;
+    background-color: gray;
+    
+}
+
+.content {
+    background-color: lightcoral;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+p {
+    font-style: italic;
+}
